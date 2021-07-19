@@ -1,0 +1,12 @@
+.categoris_main{
+    width: 100%;margin-top: -65px;
+}
+.categoris_box_scroll{
+    width: 100%;height: calc(100vh - 50px);overflow-y: scroll;background: #fff;
+}
+.category_box_child{
+    width: 100%;background: #fff;
+}
+.line{
+    width: 20%;height: 2px;margin: auto;
+}

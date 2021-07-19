@@ -1,0 +1,110 @@
+.story_box{
+    width: 100%;padding: 10px;
+}
+.check_story{
+    width: 20px;height: 20px;float: left;margin-right: 5px
+}
+.check_story > label > input{
+    margin-top: -10px;
+}
+.check_story > label > div{
+    margin-top: -10px;
+}
+.story_name{
+    margin-bottom: 0;font-size: 90%;font-weight: bold;line-height: 20px;float: left;
+}
+.change_buttton_story{
+    margin-bottom: 0;font-size: 90%;line-height: 20px;float: right;
+}
+.item_product{
+    width: 100%;padding: 0px 10px 15px 10px;
+}
+.item_product_check{
+    width: 20px;height: 80px;float: left;margin-right: 5px;padding-top: 18px
+}
+.item_product_image{
+    width: 75px;height: 80px;float: left;background: pink;margin-right: 10px
+}
+.item_product_image > div{
+    object-fit: cover;
+}
+.item_product_info_box{
+    width: calc(100% - 110px);float: left;
+}
+.item_product_info_box p{
+    font-size: 90%;font-weight: bold;margin-bottom: 5px;
+}
+.item_product_info_box .type{
+    background: #f7f7f7;border-radius: 5px;height: 28px;padding-left: 5px;padding-right: 5px
+}
+.item_product_info_box .type p{
+    font-size: 90%;margin-bottom: 0;line-height: 25px;float: left;
+}
+.item_product_info_box .type i{
+    float: right;line-height: 26px;
+}
+.item_product_info_box .price{
+    margin-top: 5px;font-size: 90%;
+}
+.price .price_item{
+    margin-bottom: 5px;margin-right: 5px;float: left;text-decoration: line-through;
+}
+.price .discount_item{
+    font-weight: bold;color: #078e49;float: left;margin-bottom: 5px;
+}
+.quanlity_box_item{
+    width: 100px;height: 30px;background: #f7f7f7;float: left;display: flex;border-radius: 5px
+}
+.rest_box{
+    width: calc(100% - 100px);height: 30px;float: right;
+}
+.rest_box p{
+    margin-bottom: 0;font-size: 90%;line-height: 30px;float: right;color: #078e49;font-weight: inherit;
+}
+
+
+
+.control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    height: 20px;
+    width: 20px;
+
+}
+.control__indicator {
+    position: absolute;
+
+    height: 20px;
+    width: 20px;
+    background: #e6e6e6;
+}
+.control input:checked ~ .control__indicator {
+    background: #078e49;
+}
+.control__indicator:after {
+    content: '';
+    position: absolute;
+    display: none;
+}
+.control input:checked ~ .control__indicator:after {
+    display: block;
+}
+.control__checkbox .control__indicator:after {
+    left: 8px;
+    top: 5px;
+    width: 5px;
+    height: 8px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+.quanlity_number{
+    width: 40px;height: 30px;text-align: center;line-height: 28px;font-weight: bold;
+}
+.quanlity_button{
+    width: 30px;height: 30px;text-align: center;line-height: 28px;
+}

@@ -1,0 +1,22 @@
+.categoris_box_products{
+    padding: 10px;margin-top: -5px
+}
+.categoris_title{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.scroll-x-hide{
+    overflow-x: scroll;
+}
+.item_products_box{
+    display: flex;margin-top: 0.7rem;margin-bottom: 2.7rem;
+}
+.item_products{
+    width:75px;height: 60px;text-align: center;
+}
+.item_products div{
+    width: 50px;height: 50px;margin: auto
+}
+.item_products p{
+    font-size: 75%;margin-top: 5px;
+}

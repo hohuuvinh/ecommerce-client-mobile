@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="109.975" height="63.042" viewBox="0 0 109.975 63.042">
+  <g id="Layer_x0020_1" transform="translate(-492 -190)">
+    <g id="_1747973467296" transform="translate(492 190)">
+      <path id="Path_16" data-name="Path 16" d="M492.315,197.556l31.484,4.093L492,204.8l31.169,4.093L492,212.039l18.261,3.463v8.186h90.358V218.65l-20.464-20.464h-10.7V190h-56.67l-2.833,5.037Z" transform="translate(-492 -190)" fill="#13b04c" fill-rule="evenodd"/>
+      <path id="Path_17" data-name="Path 17" d="M753,232v13.538h18.575L757.723,232Z" transform="translate(-670.828 -218.777)" fill="#f1cf3f" fill-rule="evenodd"/>
+      <path id="Path_18" data-name="Path 18" d="M549,306h90.988v13.853h-8.815s-3.463-11.334-12.279-10.075c-8.815,1.574-10.075,6.612-11.019,10.075H583.317s-3.778-11.649-12.908-10.39c-8.815,1.574-11.019,10.075-11.019,10.075H549Z" transform="translate(-531.054 -269.479)" fill="#f8974b" stroke="#f8974b" stroke-width="2.083" fill-rule="evenodd"/>
+      <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="8.5" cy="9.5" rx="8.5" ry="9.5" transform="translate(32 43)" fill="#0ca6cd" stroke="#0ca6cd" stroke-width="2.083"/>
+      <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="5" cy="4.5" rx="5" ry="4.5" transform="translate(36 48)" fill="#fff" stroke="#fff" stroke-width="2.083"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="9" cy="9" r="9" transform="translate(79 43)" fill="#0ca6cd" stroke="#0ca6cd" stroke-width="2.083"/>
+      <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="5" cy="4.5" rx="5" ry="4.5" transform="translate(83 47)" fill="#fff" stroke="#fff" stroke-width="2.083"/>
+      <text id="FREE" transform="translate(34 17)" fill="#fff" font-size="15" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">FREE</tspan></text>
+      <text id="DELIVERY" transform="translate(34 29)" fill="#fff" font-size="8" font-family="ArialMT, Arial"><tspan x="0" y="0">DELIVERY</tspan></text>
+    </g>
+  </g>
+</svg>

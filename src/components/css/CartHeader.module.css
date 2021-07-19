@@ -1,0 +1,26 @@
+.header_box_main{
+    width: 100%;background: white;position: fixed;-webkit-box-shadow: 3px 10px 4px -11px rgba(0,0,0,0.29);
+    -moz-box-shadow: 3px 10px 4px -11px rgba(0,0,0,0.29);
+    box-shadow: 3px 10px 4px -11px rgba(0,0,0,0.29);z-index: 999
+}
+.header{
+    padding: 0.5rem
+}
+.active{
+    border-bottom: 3px solid #078e49;
+}
+.change_button{
+    text-align: center;font-size: 85%;margin-bottom: 0;margin-top: 0.2rem;margin-right: 0.2rem;color: #078e49;float: right;
+}
+.cart_title_text{
+    text-align: center;font-size: 110%;font-weight: bold;margin-bottom: 0;margin: auto;
+}
+.header_bar{
+    width: 100%;height: 30px;display: flex;margin-top: 0.2rem;
+}
+.header_bar div{
+    width: 33.3%;
+}
+.header_bar div p{
+    line-height: 20px;font-size: 85%;text-align: center;
+}

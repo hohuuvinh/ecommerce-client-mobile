@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63.842" height="41.083" viewBox="0 0 63.842 41.083">
+  <g id="_1747976846400" transform="translate(1.042 0.603)">
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="18.5" cy="18.5" r="18.5" transform="translate(19 2.438)" fill="#f78a23" stroke="#f78a23" stroke-width="2.083"/>
+    <path id="Path_19" data-name="Path 19" d="M111.209,559.209l59.88-.209v16.691H111Z" transform="translate(-109.331 -546.436)" fill="#13b04c" stroke="#13b04c" stroke-width="2.083" fill-rule="evenodd"/>
+    <path id="Path_20" data-name="Path 20" d="M171.089,640.461l-59.046-.209L111,639h60.089Z" transform="translate(-109.331 -609.744)" fill="#068e3f" stroke="#068e3f" stroke-width="2.083" fill-rule="evenodd"/>
+    <path id="Path_21" data-name="Path 21" d="M135.475,544,124,555.684l11.893,12.31,11.475-12.31Z" transform="translate(-119.619 -534.565)" fill="#1484a4" stroke="#1484a4" stroke-width="2.083" fill-rule="evenodd"/>
+    <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="4.5" cy="4" rx="4.5" ry="4" transform="translate(7 0.438)" fill="#f1cf3f" stroke="#f1cf3f" stroke-width="2.083"/>
+    <circle id="Ellipse_8" data-name="Ellipse 8" cx="2" cy="2" r="2" transform="translate(10 2.438)" fill="#00b154" stroke="#00b154" stroke-width="2.083"/>
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="1.5" cy="1.5" r="1.5" transform="translate(0 15.438)" fill="#0ca6cd" stroke="#0ca6cd" stroke-width="2.083"/>
+    <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="2.5" cy="3" rx="2.5" ry="3" transform="translate(45 32.438)" fill="#0ca6cd" stroke="#0ca6cd" stroke-width="2.083"/>
+    <path id="Path_22" data-name="Path 22" d="M356.921,513,354,515.921l3.13,3.13,2.921-3.13Z" transform="translate(-301.631 -510.033)" fill="#1484a4" stroke="#1484a4" stroke-width="2.083" fill-rule="evenodd"/>
+    <text id="TOP" transform="translate(9 23.438)" fill="#fff" font-size="7" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">TOP</tspan></text>
+    <text id="SALE" transform="translate(29 24.438)" fill="#f1cf3f" font-size="11" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">SALE</tspan></text>
+  </g>
+</svg>

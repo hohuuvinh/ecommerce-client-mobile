@@ -1,0 +1,22 @@
+.categoris_icon_box{
+    height: 280px;
+    padding: 10px; display: flex;flex-wrap: wrap;margin-top: 10px;margin-top: 0;
+}
+.banner{
+    height: 100px;background: white;width: 100%;
+}
+.banner img{
+    object-fit: cover;border-radius: 5px;
+}
+.categoris_item{
+    width: 25%;height: 60px;text-align: center;
+}
+.categoris_item div{
+    width: 50px;height: 40px;margin: auto;
+}
+.categoris_item p{
+    font-size: 75%;margin-top: 5px
+}
+.line{
+    width: 20%;height: 2px;margin: auto;
+}
