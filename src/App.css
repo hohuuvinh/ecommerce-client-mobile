@@ -17,15 +17,16 @@ a{
   text-decoration: none;
   color: black;
 }
-::placeholder{
-  font-size: 90%;
-}
+
 .clear__both{
   clear: both;
 }
 .scroll-x-hide{
   overflow-x: scroll;
   
+}
+.display__flex{
+  display: flex;
 }
 .back_box{
   width: 25px;height: 25px;float: left;padding-top: 4px;

@@ -1,0 +1,154 @@
+.display__none{
+    display: none;
+}
+
+.clear__both{
+    clear: both;
+}
+.display__flex{
+    display: flex;
+}
+.bg{
+    background:#078e49; 
+}
+.cl{
+    color: #078e49;
+}
+
+
+/*box error*/
+.white_space{
+    width: 100%;height: 5px;background: white;
+}
+.box_error{
+    background: #ebfff0;
+    border: 1px solid #06d26a;
+    padding: 12px;
+    display: flex;
+}
+.icon_error{
+    width: 20px;
+    height: 20px;
+}
+.text_error{
+    width: calc(100% - 20px);padding-left: 15px;
+}
+.text_error p{
+    font-size: 80%;
+    line-height:20px;
+    margin-bottom: 0;
+}
+.forgot_password{
+    font-size: .75rem;
+    margin-top: 10px;
+    float: left;
+    color: #05a;
+    cursor:pointer;
+}
+.login_sms{
+    font-size: .75rem;
+    margin-top: 10px;
+    float: right; 
+    color: #05a;
+    cursor:pointer;
+}
+.line{
+    width: calc(50% - 24px);
+    height: 1px;
+    background:#ccc;
+    margin-top: 17px;
+}
+.or_text{
+    width: 48px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 72%;
+}
+.or_text p{
+    color: #ccc;
+}
+
+
+
+.box_button_login{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 90%;
+    color:white;
+    opacity: 0.6;
+    border: 0;
+}
+button:focus {
+    border: none;
+    outline: none;
+}
+
+.box_button_login.enable:active{
+    opacity: 0.8;
+  }
+
+.header_box_main{
+    width: 100%;padding: 10px
+}
+.back_button{
+    width: 25px;height: 25px;float: left;padding-top: 4px;cursor: pointer;
+}
+.input_box_main{
+    width: 100%;padding: 10px
+}
+.login_title{
+    text-align: center;font-weight: bold;font-size: 135%;margin-top: 1rem;margin-bottom: 1.5rem
+}
+.email_input_box{
+    width: 100%;height: 40px;border:1px solid rgba(0,0,0,.14)
+}
+.email_input_box input{
+    width: 100%;height: 100%;outline: none;padding-left: 10px;border: 0;
+}
+.password_input_box{
+    width: 100%;height: 40px;border:1px solid rgba(0,0,0,.14);margin-top: 1.8rem;display: flex;
+}
+.password_input_box input{
+    width: calc(100% - 40px);height: 100%;outline: none;padding-left: 10px;border: 0;
+}
+.password_input_box > div{
+    width: 40px;height: 100%;padding: 9px
+}
+.box_foter{
+    padding: 10px;
+}
+
+
+/*login social*/
+.login_social{
+    margin-bottom: 15px;
+}
+.fb_box{
+    float: left;width: 32%;height: 40px;background: #1877f2;padding: 7.5px;display: flex;
+}
+.gg_box{
+    width: 32%;height: 40px;background: #ee4d2d;margin: auto;display: flex;padding: 7.5px;
+}
+.ap_box{
+    float: right;width: 32%;height: 40px;background: black;display: flex;padding: 7.5px;
+}
+.social_icon{
+    width: 25px;height: 25px;
+}
+.social_text{
+    width: calc(100% - 30px);height: 30px;text-align: center;font-size: 85%;line-height: 30px;color: white
+}
+.move_login p{
+    text-align: center;font-size: 85%;
+}
+.move_login p a{
+    color: #078e49 !important;font-weight: bold;cursor: pointer;
+}
+
+.box_button_login.enable{
+    opacity: 1;
+    cursor:pointer;
+  }

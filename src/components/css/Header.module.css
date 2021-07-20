@@ -19,6 +19,10 @@
 .input_search{
     width: calc(100% - 34px);height: 34px;outline: none;border: none;background: none;
 }
+.input_search::placeholder{
+    font-size: 90%;
+    line-height: 25px;
+  }
 .cart_box,.account_box{
     width: 50px;height: 40px;
 }

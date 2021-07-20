@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="348.042" height="197.042" viewBox="0 0 348.042 197.042">
+  <g id="_2575256384736" transform="translate(-981 -861)">
+    <path id="Path_146" data-name="Path 146" d="M982,885l101,13L981,908l99,13-99,10,59,11v26h287V952l-65-65h-35V861H1047l-9,16Z" fill="#13b04c" fill-rule="evenodd"/>
+    <path id="Path_147" data-name="Path 147" d="M1243,903v43h58l-44-43Z" fill="#f1cf3f" fill-rule="evenodd"/>
+    <path id="Path_148" data-name="Path 148" d="M1038,977h290v44h-29s-11-36-39-32c-27,5-32,21-35,32h-77s-12-37-41-33c-29,5-35,32-35,32h-34Z" fill="#f8974b" stroke="#f8974b" stroke-width="2.083" fill-rule="evenodd"/>
+    <circle id="Ellipse_38" data-name="Ellipse 38" cx="29" cy="29" r="29" transform="translate(1081 999)" fill="#0ca6cd" stroke="#0ca6cd" stroke-width="2.083"/>
+    <circle id="Ellipse_39" data-name="Ellipse 39" cx="15" cy="15" r="15" transform="translate(1095 1013)" fill="#fff" stroke="#fff" stroke-width="2.083"/>
+    <circle id="Ellipse_40" data-name="Ellipse 40" cx="29" cy="29" r="29" transform="translate(1231 997)" fill="#0ca6cd" stroke="#0ca6cd" stroke-width="2.083"/>
+    <circle id="Ellipse_41" data-name="Ellipse 41" cx="15" cy="15" r="15" transform="translate(1245 1011)" fill="#fff" stroke="#fff" stroke-width="2.083"/>
+    <text id="DELIVERY" transform="translate(1084 925)" fill="#fff" font-size="28.12" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">DELIVERY</tspan></text>
+  </g>
+</svg>

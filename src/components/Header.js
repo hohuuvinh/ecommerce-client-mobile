@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from './css/Header.module.css';
-
+import { NavLink } from "react-router-dom";
 
 function Header(props) {
     return (
@@ -14,16 +14,20 @@ function Header(props) {
                         </div>
                         <input className={Styles.input_search} type="text" placeholder="Hôm nay muốn mua gì?" />
                     </div>
+                    <NavLink exact to="/gio-hang" onClick={props.onProgress}>
                     <div className={Styles.cart_box}>
                         <div>
                             <img src="images/icons/cart.png" width="72%" />
                         </div>
                     </div>
+                    </NavLink>
+                    <NavLink exact to="/dang-nhap" onClick={props.onProgress}>
                     <div className={Styles.account_box}>
                         <div>
                         <img src="images/icons/ic_user.png" width="72%" />
                         </div>
                     </div>
+                    </NavLink>
                 </div>
             </div>
     );
