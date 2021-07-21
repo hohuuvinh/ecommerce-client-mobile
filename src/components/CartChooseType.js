@@ -2,15 +2,16 @@ import React from 'react';
 import Styles from './css/CartChooseType.module.css';
 
 function CartChooseType(props) {
+
     return (
-        <div className={Styles.change_type_box} style={{display:"none"}}>
+        <div className={props.showType ?`${Styles.change_type_box} ${Styles.show}`:Styles.change_type_box}>
             <div>
-                <div className={Styles.close_tab}>
+                <div onClick={()=>props.changeTypeItem(props.idItemShow)} className={Styles.close_tab}>
                     <i className="fa fa-angle-down" aria-hidden="true" />
                 </div>
                 <div className={Styles.products_info}>
                     <div className={Styles.products_info_image}>
-                        <img src="https://cf.shopee.vn/file/d79fcd5348aba86a15c07a1ddfae7e0f_tn" width="100%" />
+                        <img alt="" src="https://cf.shopee.vn/file/d79fcd5348aba86a15c07a1ddfae7e0f_tn" width="100%" />
                     </div>
                     <div className={Styles.products_info_text}>
                         <p className={Styles.title}>Máy ép chậm rau củ quả</p>
@@ -46,7 +47,7 @@ function CartChooseType(props) {
                 </div>
                 <div className="clear__both" />
             </div>
-            <div className={Styles.submit_type}>
+            <div onClick={()=>props.changeTypeItem(props.idItemShow)} className={Styles.submit_type}>
                 Đồng ý
             </div>
         </div>

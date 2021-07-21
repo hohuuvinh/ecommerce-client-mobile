@@ -15,14 +15,14 @@ function CartHeader(props) {
                 <p className={Styles.cart_title_text}>Giỏ hàng</p>
                 <div className="clear__both" />
             </div>
-            <div className={Styles.header_bar}>
-                <div className={Styles.active}>
+            <div className={`${Styles.header_bar} cursor`}>
+                <div onClick={()=>props.moveTab('all')} className={props.tab==='all'?Styles.active:""}>
                     <p>Tất cả</p>
                 </div>
-                <div>
+                <div onClick={()=>props.moveTab('discount')} className={props.tab==='discount'?Styles.active:""}>
                     <p>Giảm giá</p>
                 </div>
-                <div>
+                <div onClick={()=>props.moveTab('selled')} className={props.tab==='selled'?Styles.active:""}>
                     <p>Mua lần nữa</p>
                 </div>
             </div>

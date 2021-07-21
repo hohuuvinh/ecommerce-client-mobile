@@ -8,6 +8,7 @@ import Login from './containers/Login';
 import Signup from './containers/Signup';
 import Profile from './containers/Profile';
 import VerifySms from './containers/VerifySms';
+import Checkout from './containers/Checkout';
 
 function App() {
   const [progress, setProgress] = useState(0)
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route exact path="/gio-hang">
             <Cart onProgress={onProgress} />
+          </Route>
+          <Route exact path="/thanh-toan">
+            <Checkout onProgress={onProgress}/>
           </Route>
           <Route exact path="/dang-ky">
             <Signup onProgress={onProgress}/>

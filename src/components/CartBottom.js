@@ -1,5 +1,6 @@
 import React from 'react';
 import Styles from './css/CartBottom.module.css';
+import { NavLink } from "react-router-dom";
 
 function CartBottom(props) {
     return (
@@ -24,9 +25,11 @@ function CartBottom(props) {
                     </div>
                     <p>Tất cả</p>
                 </div>
-                <div className={Styles.buy_button}>
-                    <p>Mua hàng (0)</p>
-                </div>
+                <NavLink exact to="/thanh-toan" onClick={props.onProgress}>
+                    <div className={Styles.buy_button}>
+                        <p>Mua hàng (0)</p>
+                    </div>
+                </NavLink>
                 <div className={Styles.total_box}>
                     <p className={Styles.total_money}>Tổng tiền</p>
                     <div className="clear__both" />

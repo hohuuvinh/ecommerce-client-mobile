@@ -95,7 +95,7 @@ function Signup(props) {
                     <div className={Styles.signup_social}>
                         <div className={Styles.fb_box}>
                             <div className={Styles.social_icon} >
-                                <img src="./images/icons/ic_fb.png" width="100%" height="100%"></img>
+                                <img alt="" src="./images/icons/ic_fb.png" width="100%" height="100%"></img>
                             </div>
                             <div className={Styles.social_text}>
                                 <p className="ml-2">Facebook</p>
@@ -103,7 +103,7 @@ function Signup(props) {
                         </div>
                         <div className={Styles.ap_box}>
                             <div className={Styles.social_icon} >
-                                <img src="./images/icons/ic_ap.png" width="90%" height="100%"></img>
+                                <img alt="" src="./images/icons/ic_ap.png" width="90%" height="100%"></img>
                             </div>
                             <div className={Styles.social_text}>
                                 <p>Apple</p>
@@ -111,7 +111,7 @@ function Signup(props) {
                         </div>
                         <div className={Styles.gg_box}>
                             <div className={Styles.social_icon} >
-                                <img src="./images/icons/ic_gg.png" width="100%" height="100%"></img>
+                                <img alt="" src="./images/icons/ic_gg.png" width="100%" height="100%"></img>
                             </div>
                             <div className={Styles.social_text}>
                                 <p>Google</p>

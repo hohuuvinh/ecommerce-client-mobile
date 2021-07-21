@@ -31,3 +31,6 @@ a{
 .back_box{
   width: 25px;height: 25px;float: left;padding-top: 4px;
 }
+.cursor{
+  cursor: pointer;
+}
